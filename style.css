@@ -1,1 +1,67 @@
-/*CSS*/
+/*
+The colors for the navbar or anythin can be changed later. 
+The background pictures and logo can also be added  later.
+*/
+
+body {
+    background-image: url("");
+}
+
+.container {
+    background-image: url("");
+    padding: 15px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 210px;
+}
+
+li a:hover {
+    color: crimson; /*text color when hovering*/
+    display: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: lightcoral; /*navbar color*/
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white; /*text color when not hovering*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111; /*navbar color when hovering*/
+    text-decoration: none;
+}
+
+/*
+.active {
+    background-color: crimson;
+}
+
+
+.active:hover {
+    background-color: grey;
+}
+*/
