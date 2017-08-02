@@ -4,11 +4,11 @@ The background pictures and logo can also be added  later.
 */
 
 body {
-    background-image: url("");
+    background-color: #AFA2FF;
 }
 
 .container {
-    background-image: url("");
+    background-color: #D1FFE9;
     padding: 15px;
     margin: 10px;
 }
@@ -19,7 +19,7 @@ h1 {
 }
 
 li a:hover {
-    color: crimson; /*text color when hovering*/
+    color: #9CB5FF; /*text color when hovering*/
     display: center;
     font-size: 14px;
     text-decoration: none;
@@ -31,7 +31,7 @@ ul {
     padding: 0;
     bottom: 0;
     overflow: hidden;
-    background-color: lightcoral; /*navbar color*/
+    background-color: lightblue; /*navbar color*/
     width: 100%;
     position: relative;
     display: inline-block;
@@ -51,7 +51,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111; /*navbar color when hovering*/
+    background-color: gainsboro; /*navbar color when hovering*/
     text-decoration: none;
 }
 
