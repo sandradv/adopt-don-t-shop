@@ -54,14 +54,3 @@ li a:hover:not(.active) {
     background-color: gainsboro; /*navbar color when hovering*/
     text-decoration: none;
 }
-
-/*
-.active {
-    background-color: crimson;
-}
-
-
-.active:hover {
-    background-color: grey;
-}
-*/
