@@ -1,5 +1,9 @@
+body {
+    background-color: #AFA2FF;
+}
+
 li a:hover {
-    color: crimson;
+    color: #9CB5FF;
     display: center;
     font-size: 14px;
     text-decoration: none;
@@ -10,7 +14,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: lightblue;
 }
 
 li {
@@ -26,16 +30,17 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: gainsboro;
     text-decoration: none;
 }
 
 .active {
-    background-color: crimson;
+    background-color: lightblue;
+    color: black;
 }
 
 .active:hover {
-    background-color: grey;
+    background-color: gainsboro;
 }
 
 #map {
