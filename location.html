@@ -12,71 +12,90 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-    </body>
     
         <div>
             <ul>
                 <li><a href="main.html"><span class="glyphicon glyphicon-home"></span> H O M E </a></li>
-                <li><a href="info.html"> I N F O </a></li>
-                <li><a href="stories.html"> S T O R I E S </a></li>
-                <li style="float:right"><a class="active" href="location.html"> L O C A T I O N S </a></li>
+                <li><a href="info.html"><span class="glyphicon glyphicon-info-sign"></span> I N F O </a></li>
+                <li><a href="stories.html"><span class="glyphicon glyphicon-book"></span> S T O R I E S </a></li>
+                <li style="float:right"><a class="active" href="location.html"><span class="glyphicon glyphicon-map-marker"></span> L O C A T I O N S </a></li>
             </ul>
         </div>
     
-    
-        <div id="map"></div>
-        <script>
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 10,
-                center: {lat: 41.878114, lng: -87.629798}
-            });
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>Adoption Centers in Chicago</h4>
+                    <div id="map"></div>
+                    <script>
+                    function initMap() {
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 11,
+                            center: {lat: 41.899214, lng: -87.629798}
+                        });
 
-        setMarkers(map);
-        }
-            
-        var adoptionCenters = [
-            //['Las Tres Campanitas', 41.844412, -87.720113],
-        ];
+                    setMarkers(map);
+                    }
 
-        function setMarkers(map) {
-        // Marker sizes are expressed as a Size of X,Y where the origin of the image
-        // (0,0) is located in the top left of the image.
-        // Origins, anchor positions and coordinates of the marker increase in the X
-        // direction to the right and in the Y direction down.
-            var image = {
-                url: 'https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi.png',
-                // This marker is 20 pixels wide by 32 pixels high.
-                size: new google.maps.Size(20, 32),
-                // The origin for this image is (0, 0).
-                origin: new google.maps.Point(0, 0),
-                // The anchor for this image is the base of the flagpole at (0, 32).
-                anchor: new google.maps.Point(0, 32)
-            };
-            // Shapes define the clickable region of the icon. The type defines an HTML
-            // <area> element 'poly' which traces out a polygon as a series of X,Y points.
-            // The final coordinate closes the poly by connecting to the first coordinate.
-            var shape = {
-                coords: [1, 1, 1, 20, 18, 20, 18, 1],
-                type: 'poly'
-            };
-            for (var i = 0; i < adoptionCenters.length; i++) {
-                var place = adoptionCenters[i];
-                var marker = new google.maps.Marker({
-                    position: {lat: place[1], lng: place[2]},
-                    map: map,
-                    icon: image,
-                    shape: shape,
-                    title: place[0],
-                    zIndex: place[3]
-                });
-            }
-        }
-        </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvS-dqN0DWlIAW4CHvBTlKLkX3f8hI2eI&callback=initMap">
-        </script>
-    
-    
+                    var adoptionCenters = [
+                        ['One Tail at a Time Adoption Center', 41.920971, -87.673179],
+                        ['Famous Fido Rescue No Kill Advocacy Wellness & Learning Center', 41.954245, -87.706570],
+                        ['PAWS Chicago', 41.917819, -87.658745],
+                        ['The Anti-Cruelty Society', 41.891365, -87.633371],
+                        ['Lake Shore Animal Shelter', 42.011141, -87.840619],
+                        ['Chicago Canine Rescue', 41.976636, -87.754248],
+                        ['ALIVE Rescue', 41.939368, -87.684311],
+                        ['Red Door Animal Shelter', 42.008804, -87.690628],
+                        ['Harmony House For Cats', 41.934227, -87.691141],
+                        ['Felines & Canines', 41.997935, -87.671641],
+                        ['New Leash On Life', 41.955834, -87.680132],
+                        ['Animal Welfare League', 41.703594, -87.787732],
+                        ['Chicago Animal Care and Control', 41.842054, -87.683760],
+                        ['LOVIN LIFE RESCUE', 41.903791, -87.625348],
+                        ['Tree House Humane Society', 42.013094, -87.689943],
+                    ];
+
+                    function setMarkers(map) {
+                    // Marker sizes are expressed as a Size of X,Y where the origin of the image
+                    // (0,0) is located in the top left of the image.
+                    // Origins, anchor positions and coordinates of the marker increase in the X
+                    // direction to the right and in the Y direction down.
+                        var image = {
+                            url: 'https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi.png',
+                            // This marker is 20 pixels wide by 32 pixels high.
+                            size: new google.maps.Size(20, 32),
+                            // The origin for this image is (0, 0).
+                            origin: new google.maps.Point(0, 0),
+                            // The anchor for this image is the base of the flagpole at (0, 32).
+                            anchor: new google.maps.Point(0, 32)
+                        };
+                        // Shapes define the clickable region of the icon. The type defines an HTML
+                        // <area> element 'poly' which traces out a polygon as a series of X,Y points.
+                        // The final coordinate closes the poly by connecting to the first coordinate.
+                        var shape = {
+                            coords: [1, 1, 1, 20, 18, 20, 18, 1],
+                            type: 'poly'
+                        };
+                        for (var i = 0; i < adoptionCenters.length; i++) {
+                            var place = adoptionCenters[i];
+                            var marker = new google.maps.Marker({
+                                position: {lat: place[1], lng: place[2]},
+                                map: map,
+                                icon: image,
+                                shape: shape,
+                                title: place[0],
+                                zIndex: place[3]
+                            });
+                        }
+                    }
+                    </script>
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvS-dqN0DWlIAW4CHvBTlKLkX3f8hI2eI&callback=initMap">
+                    </script>
+                </div>
+            </div>
+        </div>
+        
+    </body>
     
         <div class="footer">
             <p>Created by:
