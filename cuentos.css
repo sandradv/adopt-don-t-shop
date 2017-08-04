@@ -2,6 +2,17 @@ body {
     background-color: #AFA2FF;
 }
 
+.container {
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+img {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
 li a:hover {
     color: #9CB5FF;
     display: center;
