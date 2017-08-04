@@ -10,7 +10,8 @@ body {
 .container {
     background-color: #D1FFE9;
     padding: 15px;
-    margin: 10px;
+    margin: 50px;
+    text-align: center;
 }
 
 h1 {
