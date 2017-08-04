@@ -4,20 +4,33 @@ The background pictures and logo can also be added  later.
 */
 
 body {
-    background-color: #AFA2FF;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqr6wjHz2GuD7BCYdVAGEX9oqZvvwN5SvBFo1S8E1L8F6xJz7XSQ");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.container {
-    background-color: #D1FFE9;
-    padding: 15px;
-    margin: 50px;
+.maincontainer {
+    /*padding: 15px;
+    margin: 20px;
+    margin-top: 300px;*/
     text-align: center;
+    margin: auto;
+    
 }
 
-h1 {
+.rownavbar {
+    text-align: center;
+    align-content: center;
+    padding: 100px;
+    margin: auto;
+    padding-left: 610px;
+    padding-top: 300px;
+}
+
+/*h1 {
     text-align: center;
     padding: 210px;
-}
+}*/
 
 li a:hover {
     color: #9CB5FF; /*text color when hovering*/
