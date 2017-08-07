@@ -1,7 +1,10 @@
-body {
-    background-color: #AFA2FF;
+.body {
+    background-image: url("http://static.zerochan.net/Touhou.full.1461246.jpg");
 }
-
+.container{
+    background-color: lightblue;
+    opacity: 0.9;
+}
 li a:hover {
     color: #9CB5FF;
     display: center;
