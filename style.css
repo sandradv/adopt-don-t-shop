@@ -4,9 +4,13 @@ The background pictures and logo can also be added  later.
 */
 
 body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqr6wjHz2GuD7BCYdVAGEX9oqZvvwN5SvBFo1S8E1L8F6xJz7XSQ");
+    background-image: url("backgrounds.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    width:100%;
+    height:100%;
+    margin: 0 auto; 
+    text-align: center; 
 }
 
 .maincontainer {
@@ -21,10 +25,17 @@ body {
 .rownavbar {
     text-align: center;
     align-content: center;
-    padding: 100px;
+    padding: 50px;
     margin: auto;
-    padding-left: 610px;
-    padding-top: 300px;
+    position: absolute;
+    padding-left: 560px;
+    padding-right: 300px;*/
+    /*padding-top: 300px;*/
+}
+
+.pic {
+    margin-left: -45%;
+    width: 200%;
 }
 
 /*h1 {
@@ -45,15 +56,21 @@ ul {
     padding: 0;
     bottom: 0;
     overflow: hidden;
-    background-color: lightblue; /*navbar color*/
-    width: 100%;
+     /*navbar color*/
+    width: 150%;
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
+.rownavbar img{
+    width: 125%;
+    background-color: transparent;
+}
+
 li {
     float: center;
+    background-color: lightblue;
 }
 
 li a {
