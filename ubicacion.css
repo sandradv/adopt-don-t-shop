@@ -1,5 +1,13 @@
 body {
-    background-color: #AFA2FF;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9f/42/74/9f42745c42ed12e46ca74b8991e461c3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#h {
+    font-size: 30px;
+    color: white;
 }
 
 li a:hover {
@@ -44,16 +52,38 @@ li a:hover:not(.active) {
 }
 
 #map {
-    height: 555px;
+    height: 500px;
     width: 100%;
+    margin-bottom: 25px;
+    border: 4px dotted black;
 }
 
 .footerimg{
     text-align: center;
 }
+
 .footer{
+    background-color: white;
+    align-content: center;
     margin-top: 50px ;
     margin-bottom: 50px;
+    margin: auto;
     font-size: 16px ;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+#ns, #es {
+    margin-left: 100px;
+}
+
+#ns, #nm {
+    padding-top: 25px;
+}
+
+#nm, #em {
+    text-align: right;
+}
+
+#nm, #em {
+    margin-right: 100px;
 }
