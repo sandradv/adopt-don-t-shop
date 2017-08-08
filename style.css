@@ -1,8 +1,3 @@
-/*
-The colors for the navbar or anything can be changed later. 
-The background pictures and logo can also be added  later.
-*/
-
 body {
     background-image: url("backgrounds.jpg");
     background-repeat: no-repeat;
@@ -63,7 +58,7 @@ ul {
     text-align: center;
 }
 
-.rownavbar img{
+.rownavbar img {
     width: 125%;
     background-color: transparent;
 }
