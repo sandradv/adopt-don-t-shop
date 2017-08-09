@@ -1,10 +1,16 @@
-.body {
-    background-image: url("http://static.zerochan.net/Touhou.full.1461246.jpg");
+body {
+    background-image: url("http://cdn.wallpapersafari.com/75/37/VZ5Bdl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 .container{
     background-color: lightblue;
     opacity: 0.9;
+    margin: 10px;
 }
+
 li a:hover {
     color: #9CB5FF;
     display: center;
@@ -46,22 +52,56 @@ li a:hover:not(.active) {
     background-color: gainsboro;
 }
 
+#title{
+    padding: 100px;
+    margin: auto;
+    font-family: 'Fredericka the Great', cursive;
+    color: black;
+}
+
+#video{
+    padding: 20px;
+    padding-top: 30px;
+    text-align: right;
+}
+
+#a, #b {
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;
+    color: black;
+}
+
+#p, #f {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
 .footerimg{
     text-align: center;
 }
+
 .footer{
+    background-color: whitesmoke;
+    align-content: center;
     margin-top: 50px ;
     margin-bottom: 50px;
+    margin: auto;
     font-size: 16px ;
     font-family: 'Source Sans Pro', sans-serif;
 }
-#title{
-    padding: 40px;
+
+#ns, #es {
+    margin-left: 100px;
 }
-#video{
-    padding:35px;
-    padding-left:120px;
+
+#ns, #nm {
+    padding-top: 25px;
 }
-.h1{
-    font-size: 60px;
+
+#nm, #em {
+    text-align: right;
+}
+
+#nm, #em {
+    margin-right: 100px;
 }
