@@ -1,13 +1,15 @@
 body {
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9f/42/74/9f42745c42ed12e46ca74b8991e461c3.jpg");
+    background-image: url("http://cdn.wallpapersafari.com/75/37/VZ5Bdl.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 #h {
-    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;
     color: white;
+    font-variant: small-caps;
+    text-shadow: 4px 4px grey;
 }
 
 li a:hover {
@@ -55,13 +57,12 @@ li a:hover:not(.active) {
     height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    border: 4px dotted black;
+    border: 4px dotted white;
 }
 
 .footerimg{
     text-align: center;
 }
-
 .footer{
     background-color: white;
     align-content: center;
