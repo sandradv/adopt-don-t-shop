@@ -55,3 +55,13 @@ li a:hover:not(.active) {
     font-size: 16px ;
     font-family: 'Source Sans Pro', sans-serif;
 }
+#title{
+    padding: 40px;
+}
+#video{
+    padding:35px;
+    padding-left:120px;
+}
+.h1{
+    font-size: 60px;
+}
