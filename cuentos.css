@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9f/42/74/9f42745c42ed12e46ca74b8991e461c3.jpg");
+    background-image: url("http://cdn.wallpapersafari.com/75/37/VZ5Bdl.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -18,10 +18,14 @@ img {
     margin: 10px;
 }
 
-h2 {
+h1 {
     font-variant: small-caps;
-    text-decoration: underline;
-    text-shadow: 2px 2px black;
+    text-shadow: 4px 4px grey;
+}
+
+#l {
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
 }
 
 li a:hover {
@@ -69,7 +73,7 @@ li a:hover:not(.active) {
     text-align: center;
 }
 .footer{
-    background-color: white;
+    background-color: whitesmoke;
     align-content: center;
     margin-top: 50px ;
     margin-bottom: 50px;
