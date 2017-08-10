@@ -1,10 +1,3 @@
-body {
-    background-image: url("http://cdn.wallpapersafari.com/75/37/VZ5Bdl.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .container {
     margin: 25px;
     text-align: center;
@@ -19,13 +12,13 @@ img {
 }
 
 h1 {
-    font-variant: small-caps;
-    text-shadow: 4px 4px grey;
+    font-variant: normal;
 }
 
 #l {
-    font-family: 'Fredericka the Great', cursive;
-    color: white;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-size: 45px;
 }
 
 li a:hover {
