@@ -1,14 +1,9 @@
-body {
-    background-image: url("http://cdn.wallpapersafari.com/75/37/VZ5Bdl.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .container{
     background-color: lightblue;
     opacity: 0.9;
-    margin: 10px;
+    margin: 60px;
+    border-radius: 50px;
+    
 }
 
 li a:hover {
@@ -53,10 +48,12 @@ li a:hover:not(.active) {
 }
 
 #title{
-    padding: 100px;
+    padding: 50px;
     margin: auto;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Amatic SC', cursive;
     color: black;
+    font-size: 70px;
+    margin-left: 80px;
 }
 
 #video{
@@ -66,14 +63,23 @@ li a:hover:not(.active) {
 }
 
 #a, #b {
-    font-size: 30px;
-    font-family: 'Fredericka the Great', cursive;
+    font-size: 45px;
+    font-family: 'Amatic SC', cursive;
     color: black;
 }
 
 #p, #f {
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#a, #p {
+    padding-left: 20px;
+}
+
+#b, #f {
+    padding-right: 10px;
 }
 
 .footerimg{
