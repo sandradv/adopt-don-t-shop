@@ -1,15 +1,8 @@
-body {
-    background-image: url("http://cdn.wallpapersafari.com/75/37/VZ5Bdl.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 #h {
-    font-family: 'Fredericka the Great', cursive;
-    color: white;
+    font-family: 'Amatic SC', cursive;
+    color: black;
     font-variant: small-caps;
-    text-shadow: 4px 4px grey;
+    font-size: 45px;
 }
 
 li a:hover {
@@ -57,7 +50,7 @@ li a:hover:not(.active) {
     height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    border: 4px dotted white;
+    border: 4px dotted black;
 }
 
 .footerimg{
